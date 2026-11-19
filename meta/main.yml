@@ -1,0 +1,14 @@
+#SPDX-License-Identifier: MIT-0
+galaxy_info:
+  author: Sergey Meshkov
+  description: Install and configure LightHouse (web UI for ClickHouse)
+  company: Netology
+  license: MIT
+  min_ansible_version: "2.10"
+  galaxy_tags:
+    - lighthouse
+    - nginx
+    - clickhouse
+    - web
+
+dependencies: []
