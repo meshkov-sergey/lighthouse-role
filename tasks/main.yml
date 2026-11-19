@@ -6,7 +6,7 @@
     name: nginx
     state: present
     update_cache: true
-  when: ansible_os_family == "Debian"
+  when: ansible_facts['os_family'] == "Debian"
 
 - name: Create directory for LightHouse
   ansible.builtin.file:
