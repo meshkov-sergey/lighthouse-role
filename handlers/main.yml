@@ -1,5 +1,4 @@
 #SPDX-License-Identifier: MIT-0
----
 # handlers file for lighthouse-role
 ---
 - name: Reload nginx
